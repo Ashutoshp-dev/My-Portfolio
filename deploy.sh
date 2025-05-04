@@ -14,7 +14,7 @@ cd dist
 
 # Initialize a temporary Git repo
 git init
-git remote add origin https://github.com/<your-username>/<your-repo>.git
+git remote add origin https://github.com/Ashutoshp-dev/My-Portfolio.git
 git checkout -b gh-pages
 
 # Add and commit all files
