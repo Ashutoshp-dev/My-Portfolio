@@ -1,28 +1,24 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Exit on error
 set -e
 
-# Print each command
-set -x
-
-# Build the React app
+# Build the project
 npm run build
 
-# Move into the build directory
+# Go to dist directory
 cd dist
 
-# Initialize a temporary Git repo
+# Clean up any existing Git repo
+rm -rf .git
+
+# Re-init and push
 git init
-git remote add origin https://github.com/Ashutoshp-dev/My-Portfolio.git
-git checkout -b gh-pages
-
-# Add and commit all files
 git add .
-git commit -m "Deploy React portfolio"
+git commit -m "Deploy"
+git branch -M main
+git remote add origin https://github.com/Ashutoshp-dev/My-Portfolio.git
+git push -f origin main:gh-pages
 
-# Force push to gh-pages branch
-git push -f origin gh-pages
-
-# Go back to project root
+# Go back to root
 cd ..
