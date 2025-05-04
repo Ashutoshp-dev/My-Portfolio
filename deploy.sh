@@ -10,7 +10,7 @@ set -x
 npm run build
 
 # Move into the build directory
-cd build
+cd dist
 
 # Initialize a temporary Git repo
 git init
