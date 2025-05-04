@@ -46,6 +46,9 @@ const Work = () => {
               <h2 className="text-xl font-bold text-white mb-2">
                 {project.title}
               </h2>
+              {project.id== 0 && (
+                <span className="text-white">(Coming Soon)</span>
+              )}
               <p className="text-gray-500 mb-4 pt-4 line-clamp-3">
                 {project.description}
               </p>
