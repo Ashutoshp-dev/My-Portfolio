@@ -171,8 +171,8 @@ export const SkillsInfo = [
         "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
       image: CineAI,
       tags: ["HTML", "CSS", "JavaScript", "React JS", "API", "Tailwind CSS", "GSAP", "React-Toastify", "React-Router", "Axios", "React-Icons"],
-      github: "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
-      webapp: "https://githubprofiledetective.netlify.app/",
+      github: "",
+      webapp: "",
     },
     {
       id: 1,
@@ -181,8 +181,8 @@ export const SkillsInfo = [
         "Built a responsive modal system for SamajhAI using React, Tailwind CSS, and Docker, enabling users to view product details with an interactive image magnifier, all optimized for seamless cross-device experience and containerized deployment.",
       image: SamajhAI,
       tags: ["HTML", "CSS", "JavaScript","React JS","TailWindCSS","React-Magnify"],
-      github: "https://github.com/codingmastr/CSPrep",
-      webapp: "https://csprep.netlify.app/",
+      github: "https://github.com/Ashutoshp-dev/samajhai",
+      webapp: "https://ashutoshp-dev.github.io/samajhai/",
     },
     {
       id: 2,
@@ -191,8 +191,8 @@ export const SkillsInfo = [
         "AllInOneCalci – A multi-utility web toolkit offering 20+ calculators across finance, health, conversions, geometry, and algebra, built using HTML, CSS, JavaScript, Node.js, Express.js, and EJS for seamless and responsive calculations.",
       image: Calci,
       tags: ["HTML", "CSS","JavaScript", "NodeJS", "ExpressJS", "EJS"],
-      github: "https://github.com/codingmastr/Movie-Recommendation-App",
-      webapp: "https://movie-recommendation-app-jet.vercel.app/",
+      github: "https://github.com/Nishant18S/Team-Web-02-Techplement",
+      webapp: "https://team-web-02-techplement.vercel.app/Techplement%20Web-02/register.html",
     },
     {
       id: 3,
@@ -201,8 +201,8 @@ export const SkillsInfo = [
         "SkillStack – A responsive web platform that categorizes and showcases learning resources, built using HTML, CSS, and JavaScript, featuring interactive course previews and a clean, user-friendly interface.",
       image: SkillStack,
       tags: ["JavaScript", "HTML", "CSS"],
-      github: "https://github.com/codingmastr/Task-Reminder-Tool",
-      webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
+      github: "https://github.com/Ashutoshp-dev/SkillStack--A-Learning-Platform",
+      webapp: "https://ashutoshp-dev.github.io/SkillStack--A-Learning-Platform/",
     },
     {
       id: 4,
@@ -211,8 +211,8 @@ export const SkillsInfo = [
         "Todo App – A responsive and visually engaging task manager built with React, featuring GSAP animations, interactive toasts via react-toastify, and dynamic task completion or deletion. Styled with custom CSS for a sleek user experience.",
       image: Todo,
       tags: ["HTML", "CSS", "JavaScript", "React JS", "GSAP", "React-Toastify"],
-      github: "https://codingmasterweb.in/",
-      webapp: "https://codingmasterweb.in/",
+      github: "https://github.com/Ashutoshp-dev/Todo-App",
+      webapp: "https://ashutoshp-dev.github.io/Todo-App/",
     },
     
   ];  
