@@ -42,7 +42,7 @@ import college from './assets/education_logo/college.jpg';
 import school from './assets/education_logo/school.jpg';
 
 // Project Section Logo's
-import CineAI from './assets/work_logo/cineAI.jpg';
+import CineAI from './assets/work_logo/cineAI.png';
 import SamajhAI from './assets/work_logo/samajh.png';
 import Calci from './assets/work_logo/calci.png';
 import SkillStack from './assets/work_logo/skillstack.png';
@@ -96,25 +96,7 @@ export const SkillsInfo = [
 ];
 
   export const experiences = [
-    {
-      id: 0,
-      img: samajhIntern,
-      role: "Frontend Developer Intern",
-      company: "Samajh.AI",
-      date: "May 2025 - Present",
-      desc: "Contributing to the frontend development of an AI-powered platform that leverages computer vision for real-world data interpretation. Currently building interactive and responsive user interfaces using React and GSAP, while also working with Docker for containerization and environment consistency during development and deployment.",
-      skills: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "React JS",
-        "GSAP",
-        "Docker",
-        "Tailwind CSS",
-        "Git",
-      ],
-    },
-    
+  
     {
       id: 1,
       img: techplementIntern,
@@ -166,13 +148,26 @@ export const SkillsInfo = [
   export const projects = [
     {
       id: 0,
-      title: "Cine AI - Movie Recommendation App",
+      title: "CineAI – AI-powered Movie Recommendation App",
       description:
-        "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
+        "A full-stack movie recommendation platform built with React, Express, and MongoDB. Integrates Google Gemini API to generate intelligent suggestions based on user preferences (liked/saved movies). Features include user auth (Firebase), real-time like/save toggling, and animated UI with Framer Motion.",
       image: CineAI,
-      tags: ["HTML", "CSS", "JavaScript", "React JS", "API", "Tailwind CSS", "GSAP", "React-Toastify", "React-Router", "Axios", "React-Icons"],
-      github: "",
-      webapp: "",
+      tags: [
+    "React JS",
+    "Tailwind CSS",
+    "JavaScript",
+    "Express",
+    "MongoDB",
+    "Firebase",
+    "Framer Motion",
+    "Axios",
+    "React-Toastify",
+    "React-Router",
+    "API",
+    "React-Icons"
+  ],
+      github: "https://github.com/Ashutoshp-dev/CineAI-A-Movie-Recommendation-Platform",
+      webapp: "https://cineai-a-movie-recommendation-platform.onrender.com/",
     },
     {
       id: 1,

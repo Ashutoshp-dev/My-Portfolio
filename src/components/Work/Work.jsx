@@ -46,9 +46,6 @@ const Work = () => {
               <h2 className="text-xl font-bold text-white mb-2">
                 {project.title}
               </h2>
-              {project.id== 0 && (
-                <span className="text-white">(Coming Soon)</span>
-              )}
               <p className="text-gray-500 mb-4 pt-4 line-clamp-3">
                 {project.description}
               </p>
@@ -70,7 +67,9 @@ const Work = () => {
       {/* Modal Container */}
       {selectedProject && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-90 p-4" onClick={handleCloseModal}>
-          <div className="bg-gray-900 rounded-xl shadow-2xl lg:w-full w-[90%] max-w-3xl overflow-hidden relative">
+          <div className="bg-gray-900 rounded-xl shadow-2xl lg:w-full w-[90%] max-w-3xl overflow-hidden relative"
+          onClick={(e)=>e.stopPropagation()}
+          >
             <div className="flex justify-end p-4">
               <button
                 onClick={handleCloseModal}
