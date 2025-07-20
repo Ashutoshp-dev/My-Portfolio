@@ -35,7 +35,7 @@ import csharpLogo from './assets/tech_logo/csharp.png';
 
 // Experience Section Logo's
 import samajhIntern from './assets/company_logo/samajhAI.jpg';
-import techplementIntern from './assets/company_logo/Techplement.png';
+import techplementIntern from './assets/company_logo/techplement.png';
 
 // Education Section Logo's
 import college from './assets/education_logo/college.jpg';
